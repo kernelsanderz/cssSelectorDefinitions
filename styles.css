@@ -1,0 +1,26 @@
+body{
+  background-color: DimGray;
+  color: GhostWhite;
+}
+h1,h2{
+  font-family: Georgia;
+  text-align: center;
+  opacity: .9;
+}
+.header{
+  font-size: 20px;
+}
+table{
+  width: 600px;
+}
+table,th,td{
+  font-family: monospace;
+  background-color: LightSlateGray;
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+thead{
+  font-weight: bold;
+  font-size: 20px;
+}

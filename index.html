@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+  <title></title>
+  <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <h1>CSS Selectors</h1>
+  </div>
+  
+  <h2>Types of Selectors</h2>
+  <table class="typeTable">
+    <thead>
+    <tr>
+      <th>Selector</th>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>p</td>
+      <td>Element</td>
+      <td>Changes the attributes of all elements with specified tag</td>
+    </tr>
+    <tr>
+      <td>.main</td>
+      <td>Class</td>
+      <td>Changes the attributes of all tags with specified class</td>
+    </tr>
+    <tr>
+      <td>#main</td>
+      <td>Id</td>
+      <td>Changes the attributes of all tags with specified id</td>
+    </tr>
+    </tbody>
+  </table>
+  <h2>Specificity of Selectors</h2>
+  <table class="specTable">
+    <thead>
+    <tr>
+      <th>Selector</th>
+      <th>Name</th>
+      <th>Specificity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>p</td>
+      <td>Element</td>
+      <td>Least specific</td>
+    </tr>
+    <tr>
+      <td>.main</td>
+      <td>Class</td>
+      <td>Overwritten by id selector </td>
+    </tr>
+    <tr>
+      <td>#main</td>
+      <td>Id</td>
+      <td>Overwritten by !important flag on an attribute</td>
+    </tr>
+    </tbody>
+  </table>
+</body>
